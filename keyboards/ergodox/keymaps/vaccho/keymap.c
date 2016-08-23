@@ -10,7 +10,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /* Keymap 0: Basic layer
  *
  * ,--------------------------------------------------.           ,--------------------------------------------------.
- * | 1      |   1  |   2  |   3  |   4  |   5  | LEFT |           | RIGHT|   6  |   7  |   8  |   9  |   0  |   -    |
+ * | 1      |   1  |   2  |   3  |   4  |   5  | LEFT |           |  6   |   7  |   8  |   9  |   0  |   -  |   ^    |
  * |--------+------+------+------+------+-------------|           |------+------+------+------+------+------+--------|
  * | Tab    |   Q  |   W  |   E  |   R  |   T  |  L2  |           |  Y   |   Y  |   U  |   I  |   O  |   P  |   @    |
  * |--------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
@@ -41,10 +41,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                                               KC_HOME,
                                                KC_SPC,TG(SYMB), KC_END,
         // right hand
-             KC_RGHT,     KC_6,   KC_7,    KC_8,   KC_9,   KC_0,             KC_MINS,
+             KC_6,        KC_7,   KC_8,    KC_9,   KC_0,   KC_MINS,          KC_EQL,
              KC_Y,        KC_Y,   KC_U,    KC_I,   KC_O,   KC_P,             KC_LBRC,
                           KC_H,   KC_J,    KC_K,   KC_L,   KC_SCLN,          KC_QUOT,
-             KC_ESC,    KC_N,   KC_M,    KC_COMM,KC_DOT, KC_SLSH,          KC_RO,
+             KC_ESC,      KC_N,   KC_M,    KC_COMM,KC_DOT, KC_SLSH,          KC_RO,
                                   KC_LANG1,KC_RGUI,KC_JYEN,KC_RBRC,          KC_BSLS,
              KC_LALT,        CTL_T(KC_ESC),
              KC_PGUP,
